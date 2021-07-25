@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      .carousel-inner{
+        width: 250px;
+        height: 450px;
+        margin-top: 20px;
+      }
+      .colms{
+        padding: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px; 
+        align-content: center; 
+      }
+      .img1{
+        align-content: center;
+        width: 200px;
+        height: 200px;
+      }
+      .img2{
+        width: 70px;
+        height: 70px;
+      }
+      .weather{
+        background-color:black;
+        color: white;
+      }
+      p{
+        text-align: center;
+        font-family: monospace;
+      }
+      li{
+        list-style: none;
+      }
+      a: hovor{
+        color: whitesmoke;
+      }
+      a{
+        list-style: none;
+      }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Bootstrap..</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">gallary</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#">contat us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="sign.html" target="blank">sign up</a></li>
+            <li><a class="dropdown-item" href="create.html" target="blank">create an account</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+      <!-- navigation bar -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.downtoearth.org.in/dte/userfiles/images/srikakulamagriculture.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.americangeosciences.org/sites/default/files/styles/ci__650_x_430_/public/CI-Drought-USGS-075-04212016-600-400px.jpg?itok=xFrCMWR-" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://th.bing.com/th/id/R.d1883b4659a37ed54165e7fce8fce94d?rik=Q6P%2b4ZmLnH1pdg&riu=http%3a%2f%2fichef-1.bbci.co.uk%2fnews%2f640%2fcpsprodpb%2f183F5%2fproduction%2f_84871399_e1470103-drought-damaged_crops-spl-1.jpg&ehk=aeGUS8qaqSJk1QC2r%2fiC0dRUwFkNPH70ahQKJt%2bzEzw%3d&risl=&pid=ImgRaw" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+       <!-- gallarxy -->
+  <div class="colms">
+   <div class="row">
+     <center>< <h1> Weather Diffrent Looks</h1></center>
+     <br>
+     <br>
+      <div class="col-sm-4">
+        <center>
+        <img src="https://th.bing.com/th/id/OIP.8BWvOa6N8MB5BQutW7Ly1gHaEL?w=306&h=180&c=7&o=5&dpr=1.25&pid=1.7" class="img1">
+      </center>
+            <p>  Climate change refers to changes beyond the average
+                  atmospheric condition that are caused both by
+                  natural factors such as the orbit of earth’s revolution,
+                  volcanic activities and crustal movements and
+                  by artificial factors such as the increase in the
+                  concentration of greenhouse gases and aerosol. Climate
+                  change by global warming, which refers to the average
+                  increase in global temperature, has become a
+                  megatrend that will lead to significant global changes in
+                  the future
+              </p> 
+      </div>  
+      <div class="col-sm-4">
+        <center>
+        <img src="https://th.bing.com/th/id/OIP.PPzutHpVer5fQUweSXBawwHaD0?w=294&h=179&c=7&o=5&dpr=1.25&pid=1.7" class="img1">
+      </center>
+               <p>  Climate change refers to changes beyond the average
+                  atmospheric condition that are caused both by
+                  natural factors such as the orbit of earth’s revolution,
+                  volcanic activities and crustal movements and
+                  by artificial factors such as the increase in the
+                  concentration of greenhouse gases and aerosol. Climate
+                  change by global warming, which refers to the average
+                  increase in global temperature, has become a
+                  megatrend that will lead to significant global changes in
+                  the future
+              </p>
+      </div> 
+      <div class="col-sm-4">
+        <center>
+        <img src="https://th.bing.com/th/id/OIP.R8t2VNY4nY2EiybGXbdFIQHaE8?w=229&h=180&c=7&o=5&dpr=1.25&pid=1.7" class="img1"></center>
+                <p>  Climate change refers to changes beyond the average
+                  atmospheric condition that are caused both by
+                  natural factors such as the orbit of earth’s revolution,
+                  volcanic activities and crustal movements and
+                  by artificial factors such as the increase in the
+                  concentration of greenhouse gases and aerosol. Climate
+                  change by global warming, which refers to the average
+                  increase in global temperature, has become a
+                  megatrend that will lead to significant global changes in
+                  the future
+              </p>
+      </div>
+              <button type="button" class="btn btn-dark">Lets it was a better practice copyright<footer>&copy; Copyright 2021</footer></button>
+   
+   </div>
+   <footer>
+     <div class="row">
+      <div class="col-sm-4">
+        <img src="https://th.bing.com/th/id/OIP.Ly7guPDxoQJpU0pcif1FTgHaHa?pid=ImgDet&rs=1" class="img2">
+      </div>
+      <div class="col-sm-4" class="weather">
+        <li>
+          <a href="#">About</a>
+        </li>
+         <li>
+          <a href="#">Private ad policy</a>
+        </li>
+         <li>
+          <a href="#">Terms & condition</a>
+        </li>
+      </div>
+      <div class="col-sm-4" class="weather">
+        <li>
+          <p>contact : 1234567890</p>
+          <p>email : support2gmail.com</p>
+        </li>
+      </div>
+    </div>
+
+   </footer>
+  </body>
+</html>
